@@ -1,0 +1,235 @@
+@import url(https://fonts.googleapis.com/css?family=Inter:100,200,300,regular,500,600,700,800,900);
+body {
+    margin: 0;
+    padding: 0;
+}
+
+img{
+    width: 100%;
+}
+ul{
+    list-style-type: none;
+}
+.header{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+    align-items: center;
+    justify-content: center;
+    gap: 3px;
+}
+.logo img{
+    width: 70px;
+    height: 64px;
+}
+.logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.nav__bar ul li{
+    width: 160px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.nav__bar ul {
+    display: flex;
+    align-items: center;
+}
+.dot{
+    width: 7px;
+    height: 7px;
+    background-color: yellow;
+    border-radius: 50%;
+}
+a{
+    text-decoration: none;
+}
+.sign__up{
+    display: flex;
+    justify-self: center;
+    justify-content: center;
+    background-color: #6C5CE7;
+    width: 170px;
+    height: 60px;
+    align-items: center;
+    border-radius: 50px;
+    
+}
+.logo span{
+    color: var(--Black, #2D3436);
+
+    font-family: Inter;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 116.667%; 
+    letter-spacing: -1px;
+}
+.nav__bar ul li span{
+    color: var(--Black, #2D3436);
+    text-align: center;
+
+
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 177.778%; 
+    letter-spacing: 0.2px;
+}
+.nav__bar ul li{
+    color: var(--Purple-Dark, #6C5CE7);
+    text-align: center;
+
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 177.778%; 
+}
+.header{
+    box-shadow: 0px 4px 8px 0px rgba(38, 50, 56, 0.08), 0px 2px 4px 0px rgba(38, 50, 56, 0.16);
+    background-color: #FFF;
+}
+.sign__up a{
+    color: var(--White, #FFF);
+    text-align: center;
+
+    
+    text-shadow: 0px 4px 8px rgba(38, 50, 56, 0.08), 0px 2px 4px rgba(38, 50, 56, 0.16);
+
+    
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 150%; 
+    letter-spacing: 0.25px;
+}
+.conteiner{
+    padding: 16px  135px;
+}
+.main h1{
+    color: var(--Black, #2D3436);
+    text-align: center;
+ 
+    text-shadow: 0px 4px 0px #FFF;
+   
+    font-family: Inter;
+    font-size: 96px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 108.333%; 
+    letter-spacing: -3px;
+}
+.main h1 span{
+    color: var(--Red-Dark, #D63031);
+
+    
+    font-family: Inter;
+    font-size: 96px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 104px;
+    letter-spacing: -3px;
+}
+.main h2{
+    color: var(--Black, #2D3436);
+    text-align: center;
+    display: flex;
+    font-family: Inter;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    letter-spacing: -1px;
+    justify-content: center;
+    
+    
+}
+.back{
+    position: absolute;
+    z-index: -2;
+    transform: rotate(-45deg);
+    border-radius: 99px;
+    background: var(--Yellow-Light, #FFEAA7);
+    width: 1512px;
+    height: 835px;
+    left: 55%;
+    bottom: 55%;
+    opacity: 0.4;
+}
+body{
+    overflow-x: hidden;
+}
+.dots{
+    position: absolute;
+    left: 89%;
+    width: 209px;
+    height: 285px;
+}
+.back2{
+    background-color: #55EFC4;
+    width: 191px;
+    height: 51px;
+    position: absolute;
+    border-radius: 50px;
+    z-index: -1;
+    left: 47%;
+    top: 230px;
+}
+.gallery{
+    display: grid;
+    grid-template-columns: 270px 270px 170px 170px 170px;  
+    grid-template-rows: 102px 222px 356px;
+    justify-content: center;
+    gap: 30px;
+}
+.consider{
+    grid-column: 2/4;
+    grid-row: 1/3;
+}
+.hq{
+    grid-column: 1/2;
+    grid-row: 2/3;
+}
+.book{
+    grid-column: 2/3;
+    grid-row: 3/4;
+}
+.letter__a{
+    grid-column: 4/5;
+    grid-row: 2/3;
+}
+.sneaker{
+    grid-column: 5/6;
+    grid-row: 2/3;
+}
+.window{
+    grid-column: 5/6;
+    grid-row: 3/4;
+}
+
+.see__my__goal{
+    grid-column: 3/5;
+    grid-row: 3/4;
+}
+.text__1{
+    grid-column: 1/2;
+    grid-row: 1/2;
+}
+.text__2{
+    grid-column: 4/6;
+    grid-row: 1/2;
+}
+.text__1, .text__2{
+    color: var(--Black, #2D3436);
+
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 177.778%; 
+}
